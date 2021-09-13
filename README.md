@@ -23,7 +23,10 @@ const variable: any = 42;
 
 if (isNumber(variable)) {
   // From here, variable is strongly typed as a number
-  console.log(" 4.2000000000e+1", variable.toExponential(10));
+  console.log(
+    "Variable is a number with an exponential value of",
+    variable.toExponential(10)
+  );
 } else {
   console.log("Variable is not a number");
 }
