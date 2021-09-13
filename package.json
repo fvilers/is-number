@@ -1,11 +1,12 @@
 {
-  "name": "is-number",
+  "name": "@fvilers/is-number",
   "version": "0.0.0",
   "description": "A TypeScript type guard that validates if the given value is a number",
   "main": "dist/is-number.js",
   "types": "dist/is-number.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
