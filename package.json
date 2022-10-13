@@ -2,6 +2,7 @@
   "name": "@fvilers/is-number",
   "version": "1.0.1",
   "description": "A TypeScript type guard that validates if the given value is a number",
+  "type": "module",
   "main": "dist/is-number.js",
   "types": "dist/is-number.d.ts",
   "scripts": {
@@ -23,6 +24,6 @@
   },
   "homepage": "https://github.com/fvilers/is-number#readme",
   "devDependencies": {
-    "typescript": "^4.4.3"
+    "typescript": "^4.7.4"
   }
 }
